@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/summary")
+@RequestMapping("/api/summary/v1")
 public class SummaryController {
 
     private final SummaryService summaryService;
